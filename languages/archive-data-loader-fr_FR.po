@@ -1,0 +1,316 @@
+# Copyright (C) 2024 Martin IS IT Services
+# This file is distributed under the same license as the Archive Data Loader plugin.
+msgid ""
+msgstr ""
+"Project-Id-Version: Archive Data Loader 1.0.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/archive-data-"
+"loader\n"
+"Last-Translator: \n"
+"Language-Team: Français\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2024-11-22T17:30:27+03:00\n"
+"PO-Revision-Date: 2024-11-22 14:55+0000\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Domain: archive-data-loader\n"
+"Language: fr_FR\n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
+"X-Loco-Version: 2.6.14; wp-6.7.1"
+
+#. Plugin Name of the plugin
+#: archive-data-loader.php admin/templates/sections/database-settings.php:19
+msgid "Archive Data Loader"
+msgstr "Chargeur de données d'archives"
+
+#. Description of the plugin
+#: archive-data-loader.php
+msgid "A plugin to load data from an archive database into WordPress."
+msgstr ""
+"Un plugin pour charger des données d'une base de données d'archive dans "
+"WordPress."
+
+#. Author of the plugin
+#: archive-data-loader.php
+msgid "Martin IS IT Services"
+msgstr "Martin IS IT Services"
+
+#. Author URI of the plugin
+#: archive-data-loader.php
+msgid "https://misits.ch"
+msgstr "https://misits.ch"
+
+#: admin/handlers/database-handler.php:21
+msgid "Source database dumped successfully."
+msgstr "La base de données source a été copiée avec succès."
+
+#: admin/handlers/database-handler.php:23
+msgid "Failed to dump source database."
+msgstr "Échec de la copie de la base de données source."
+
+#: admin/handlers/database-handler.php:30
+msgid "Current database dumped successfully."
+msgstr "La base de données actuelle a été copiée avec succès."
+
+#: admin/handlers/database-handler.php:32
+msgid "Failed to dump current database."
+msgstr "Échec de copie de la base de données actuelle."
+
+#: admin/handlers/database-handler.php:39
+msgid "Source database restored successfully."
+msgstr "La base de données source a été restaurée avec succès."
+
+#: admin/handlers/database-handler.php:41
+msgid "Failed to restore source database."
+msgstr "Échec de la restauration de la base de données source."
+
+#: admin/handlers/database-handler.php:48
+msgid "Connection to database successful."
+msgstr "Connexion à la base de données réussie."
+
+#: admin/handlers/database-handler.php:50
+msgid "Connection to database failed."
+msgstr "La connexion à la base de données a échoué."
+
+#: admin/handlers/settings-handler.php:20
+msgid "Settings saved successfully."
+msgstr "Paramètres enregistrés avec succès."
+
+#: admin/templates/sections/data-preview.php:23
+msgid "Data Preview"
+msgstr "Aperçu des données"
+
+#: admin/templates/sections/data-preview.php:23
+msgid "Preview the first 5 rows of the selected table"
+msgstr "Prévisualiser les 5 premières lignes du tableau sélectionné"
+
+#: admin/templates/sections/database-settings.php:21
+msgid "Use this tool to load data from a database into WordPress."
+msgstr ""
+"Utilisez cet outil pour charger des données d'une base de données dans "
+"WordPress."
+
+#: admin/templates/sections/database-settings.php:22
+msgid "Warning"
+msgstr "Avertissement"
+
+#: admin/templates/sections/database-settings.php:22
+msgid ""
+"This tool will load data from an external database into your WordPress site"
+msgstr ""
+"Cet outil chargera les données d'une base de données externe sur votre site "
+"WordPress"
+
+#: admin/templates/sections/database-settings.php:22
+msgid "Make sure you have a backup of your site before proceeding"
+msgstr "Assurez-vous d'avoir une sauvegarde de votre site avant de continuer"
+
+#: admin/templates/sections/database-settings.php:34
+msgid "Database Settings"
+msgstr "Paramètres de la base de données"
+
+#: admin/templates/sections/database-settings.php:34
+msgid "Configure the connection to a database"
+msgstr "Configurer la connexion à une base de données"
+
+#: admin/templates/sections/database-settings.php:46
+msgid "Database Host"
+msgstr "Hôte de base de données"
+
+#: admin/templates/sections/database-settings.php:51
+msgid "Database User"
+msgstr "Utilisateur de la base de données"
+
+#: admin/templates/sections/database-settings.php:56
+msgid "Database Password"
+msgstr "Mot de passe de la base de données"
+
+#: admin/templates/sections/database-settings.php:66
+msgid "Database Name"
+msgstr "Nom de la base de données"
+
+#: admin/templates/sections/database-settings.php:71
+msgid "Save Settings"
+msgstr "Enregistrer les paramètres"
+
+#: admin/templates/sections/database-settings.php:86
+msgid "Test Database Connection"
+msgstr "Tester la connexion à la base de données"
+
+#: admin/templates/sections/load-data.php:25
+#: admin/templates/sections/load-data.php:114
+msgid "Load Data"
+msgstr "Charger les données"
+
+#: admin/templates/sections/load-data.php:25
+msgid ""
+"Map the fields from the selected table in source database to the current "
+"database"
+msgstr ""
+"Mapper les champs de la table sélectionnée dans la base de données source "
+"vers la base de données actuelle"
+
+#: admin/templates/sections/load-data.php:37
+msgid "Source Table"
+msgstr "Tableau source"
+
+#: admin/templates/sections/load-data.php:39
+#: admin/templates/sections/load-data.php:51
+msgid "Select a table"
+msgstr "Sélectionnez une table"
+
+#: admin/templates/sections/load-data.php:49
+msgid "Destination Table"
+msgstr "Tableau de destination"
+
+#: admin/templates/sections/load-data.php:63
+msgid "Post Type"
+msgstr "Type de poste"
+
+#: admin/templates/sections/load-data.php:72
+msgid "Title Field"
+msgstr "Champ de titre"
+
+#: admin/templates/sections/load-data.php:79
+msgid "Content Field"
+msgstr "Champ de contenu"
+
+#: admin/templates/sections/load-data.php:86
+msgid "Date Field"
+msgstr "Champ de date"
+
+#: admin/templates/sections/load-data.php:96
+msgid "Archive Column"
+msgstr "Colonne d'archives"
+
+#: admin/templates/sections/load-data.php:102
+msgid "Post Meta Fields"
+msgstr "Champs méta de publication"
+
+#: admin/templates/sections/load-data.php:106
+msgid "Action"
+msgstr "Action"
+
+#: admin/templates/sections/load-data.php:107
+msgid "Add Meta"
+msgstr "Ajouter des méta"
+
+#: admin/templates/sections/logs.php:22
+msgid "Logs"
+msgstr "Logs"
+
+#: admin/templates/sections/logs.php:22
+msgid "Manage log files generated by the plugin"
+msgstr "Gérer les fichiers journaux générés par le plugin"
+
+#: admin/templates/sections/logs.php:33
+msgid "File Name"
+msgstr "Nom de fichier"
+
+#: admin/templates/sections/logs.php:34
+msgid "Size"
+msgstr "Taille"
+
+#: admin/templates/sections/logs.php:35
+msgid "Actions"
+msgstr "Actions"
+
+#: admin/templates/sections/logs.php:45
+msgid "Download"
+msgstr "Télécharger"
+
+#: admin/templates/sections/logs.php:49
+msgid "Delete"
+msgstr "Supprimer"
+
+#: admin/templates/sections/logs.php:56
+msgid "No log files available"
+msgstr "Aucun fichier log disponible"
+
+#: admin/templates/sections/restore-commands.php:19
+msgid "Restore Command"
+msgstr "Commande de restauration"
+
+#: admin/templates/sections/restore-commands.php:19
+msgid "Execute commands to manage database"
+msgstr "Exécuter des commandes pour gérer la base de données"
+
+#: admin/templates/sections/restore-commands.php:39
+msgid "Dump Source Database"
+msgstr "Copier la base de données source"
+
+#: admin/templates/sections/restore-commands.php:55
+msgid "Dump Current Database"
+msgstr "Copier la base de données actuelle"
+
+#: includes/class-data-loader.php:287
+msgid "Source DB Connection Error: "
+msgstr "Erreur de connexion à la base de données source : "
+
+#: includes/class-data-loader.php:292
+msgid "Connected to the source database."
+msgstr "Connecté à la base de données source."
+
+#: includes/class-data-loader.php:301
+msgid "Failed to retrieve tables from source database."
+msgstr "Échec de la récupération des tables de la base de données source."
+
+#: includes/class-data-loader.php:305
+msgid "Retrieved tables from source database."
+msgstr "Tables récupérées à partir de la base de données source."
+
+#: includes/class-data-loader.php:320
+msgid "Failed to create table "
+msgstr "Échec de la création de la table "
+
+#: includes/class-data-loader.php:322
+msgid "Created table "
+msgstr "Tableau créé "
+
+#: includes/class-data-loader.php:350
+msgid "Failed to insert/update data into "
+msgstr "Impossible d'insérer/mettre à jour les données dans "
+
+#: includes/class-data-loader.php:354
+msgid "Copied data into "
+msgstr "Données copiées dans"
+
+#: includes/class-data-loader.php:369
+msgid "Updated siteurl and home options."
+msgstr "Mise à jour du siteurl et des options d'accueil."
+
+#: includes/class-data-loader.php:377
+msgid "Database restoration completed successfully."
+msgstr "La restauration de la base de données a été effectuée avec succès."
+
+#: includes/class-data-loader.php:380
+msgid "Error during database restoration: "
+msgstr "Erreur lors de la restauration de la base de données : "
+
+#: includes/class-loader.php:35
+msgid "Encryption key or IV missing. Please configure properly."
+msgstr "Clé de chiffrement ou IV manquante. Veuillez configurer correctement."
+
+#: includes/class-logger.php:55 includes/class-logger.php:102
+msgid "Invalid log file specified."
+msgstr "Fichier journal spécifié non valide."
+
+#: includes/class-logger.php:70
+msgid "Log files cleared successfully."
+msgstr "Les fichiers journaux ont été effacés avec succès."
+
+#: includes/class-logger.php:113
+msgid "Log file deleted successfully."
+msgstr "Le fichier journal a été supprimé avec succès."
+
+#: includes/class-logger.php:115
+msgid "Failed to delete the log file."
+msgstr "Impossible de supprimer le fichier journal."
+
+#: includes/class-preview-handler.php:14
+msgid "Missing or empty table parameter."
+msgstr "Paramètre de table manquant ou vide."
+
+#: includes/class-preview-handler.php:43
+msgid "Query error: "
+msgstr "Erreur de requête : "
