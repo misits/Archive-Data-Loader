@@ -87,7 +87,6 @@ class Loader
             'archive-data-loader',     // Menu slug
             [__CLASS__, 'render_admin_page'], // Callback
             'dashicons-database',      // Icon
-            20                         // Position
         );
     }
 
