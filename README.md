@@ -82,9 +82,7 @@ A: The plugin includes rollback functionality and detailed error logging.
 
 ## Support
 
-- Documentation: [Link to docs]
 - Support Email: [dev@misits.ch](mailto:dev@misits.ch)
-- Issue Tracker: [GitHub Issues]
 
 ## Contributing
 
