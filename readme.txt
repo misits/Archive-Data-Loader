@@ -62,13 +62,13 @@ Yes, the plugin supports large datasets, but you may need to increase your PHP m
 
 == Screenshots ==
 
-1. [Archive Data Loader Settings](https://github.com/misits/archive-data-loader/blob/main/assets/screenshot-1.png)
+1. ![Archive Data Loader Settings](https://github.com/misits/archive-data-loader/blob/main/assets/screenshot-1.png)
    Easily configure your external database connection.
 
-2. [Field Mapping](https://github.com/misits/archive-data-loader/blob/main/assets/screenshot-2.png)
+2. ![Field Mapping](https://github.com/misits/archive-data-loader/blob/main/assets/screenshot-2.png)
    Map archive fields to WordPress post fields.
 
-3. [Import Logs](https://github.com/misits/archive-data-loader/blob/main/assets/screenshot-3.png)
+3. ![Import Logs](https://github.com/misits/archive-data-loader/blob/main/assets/screenshot-3.png)
    Review logs for import status and error messages.
 
 == Upgrade Notice ==
