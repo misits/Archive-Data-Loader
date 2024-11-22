@@ -34,7 +34,7 @@ Archive Data Loader is a powerful WordPress plugin designed to facilitate the se
 4. After installation, click **Activate** to enable the plugin.
 5. Go to **Tools > Archive Data Loader** to configure and start importing data.
 
-= Manual Installatio =
+= Manual Installation =
 
 1. Unzip the plugin file.
 2. Upload the entire `archive-data-loader` folder to the `/wp-content/plugins/` directory.
@@ -62,13 +62,13 @@ Yes, the plugin supports large datasets, but you may need to increase your PHP m
 
 == Screenshots ==
 
-1. ![Archive Data Loader Settings](https://github.com/misits/archive-data-loader/blob/main/assets/screenshot-1.png)
+1. ![Archive Data Loader Settings](https://raw.githubusercontent.com/misits/archive-data-loader/refs/heads/main/assets/screenshot-1.png)
    Easily configure your external database connection.
 
-2. ![Field Mapping](https://github.com/misits/archive-data-loader/blob/main/assets/screenshot-2.png)
+2. ![Field Mapping](https://raw.githubusercontent.com/misits/archive-data-loader/refs/heads/main/assets/screenshot-2.png)
    Map archive fields to WordPress post fields.
 
-3. ![Import Logs](https://github.com/misits/archive-data-loader/blob/main/assets/screenshot-3.png)
+3. ![Import Logs](https://raw.githubusercontent.com/misits/archive-data-loader/refs/heads/main/assets/screenshot-3.png)
    Review logs for import status and error messages.
 
 == Upgrade Notice ==
